@@ -1,0 +1,80 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+div{
+    margin:0px;
+}
+h4 {
+    margin:0;
+    margin-top: 14px;
+    margin-bottom:9px;
+    display: inline-block;
+    
+}
+
+.wrapper-container{
+    
+    width:100%;
+    height: 790px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container{
+    border: 2px solid black;
+    width: 500px;
+    height: 600px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-container{
+    width: 80%;
+    height: 550px;
+}
+.item-container h1{
+    font-size: 40px;
+}
+
+input[type="email"]{
+    padding:0;
+    width:100%;
+    height: 35px;
+}
+
+.contact_name{
+    width: 100%;
+    height:300px;
+    position: relative;
+}
+
+input[type="text"]{
+    width:45%;
+    height: 35px;
+}
+
+.name1{
+    float: left;
+}
+.name2{
+    float: right;
+}
+textarea {
+    padding: 0;
+    display: block;
+    width:100%;
+    height:160px;
+    resize: none;
+}
+.contact_bottom{
+    height:70px;
+    position: absolute;
+    bottom:-170px;
+    width: 100%;
+    display: flex;
+    display: inline;
+}
