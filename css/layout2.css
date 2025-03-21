@@ -24,11 +24,11 @@ div{
     padding:5px;
     font-size: 15px;
     right: 0px;
-    width: 500px;
+    width: 600px;
     margin:3px;
 }
 .main_input input{
-    width: 150px;
+    width: 140px;
     border:2px solid black;
     border-radius: 3px;
     margin: auto 5px auto 5px;
@@ -36,6 +36,17 @@ div{
 .main_input input:focus{
     border: 3px solid black;
 }
+
+.main_input button{
+    background-color: black;
+    width:200px;
+    border-radius: 2px;
+    color:white;
+}
+.login{
+    margin-right: 10px;
+}
+
 .main-title{
     font-size:60px;
     color:white;
